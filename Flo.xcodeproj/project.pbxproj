@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E2F4A7E1B83DE8600539317 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2F4A7D1B83DE8600539317 /* CounterView.swift */; };
 		4E4AD4C31B82C2F500CC1744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4AD4C21B82C2F500CC1744 /* AppDelegate.swift */; };
 		4E4AD4C51B82C2F500CC1744 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4AD4C41B82C2F500CC1744 /* ViewController.swift */; };
 		4E4AD4C81B82C2F500CC1744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4AD4C61B82C2F500CC1744 /* Main.storyboard */; };
 		4E4AD4CA1B82C2F500CC1744 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E4AD4C91B82C2F500CC1744 /* Images.xcassets */; };
 		4E4AD4CD1B82C2F500CC1744 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E4AD4CB1B82C2F500CC1744 /* LaunchScreen.xib */; };
 		4E4AD4D91B82C2F500CC1744 /* FloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4AD4D81B82C2F500CC1744 /* FloTests.swift */; };
+		4E4AD4E31B82C37D00CC1744 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4AD4E21B82C37D00CC1744 /* PushButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E2F4A7D1B83DE8600539317 /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		4E4AD4BD1B82C2F500CC1744 /* Flo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4AD4C11B82C2F500CC1744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E4AD4C21B82C2F500CC1744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		4E4AD4D21B82C2F500CC1744 /* FloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4AD4D71B82C2F500CC1744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E4AD4D81B82C2F500CC1744 /* FloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloTests.swift; sourceTree = "<group>"; };
+		4E4AD4E21B82C37D00CC1744 /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushButtonView.swift; path = ../PushButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		4E4AD4BF1B82C2F500CC1744 /* Flo */ = {
 			isa = PBXGroup;
 			children = (
+				4E4AD4E21B82C37D00CC1744 /* PushButtonView.swift */,
+				4E2F4A7D1B83DE8600539317 /* CounterView.swift */,
 				4E4AD4C21B82C2F500CC1744 /* AppDelegate.swift */,
 				4E4AD4C41B82C2F500CC1744 /* ViewController.swift */,
 				4E4AD4C61B82C2F500CC1744 /* Main.storyboard */,
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E4AD4C51B82C2F500CC1744 /* ViewController.swift in Sources */,
+				4E4AD4E31B82C37D00CC1744 /* PushButtonView.swift in Sources */,
 				4E4AD4C31B82C2F500CC1744 /* AppDelegate.swift in Sources */,
+				4E2F4A7E1B83DE8600539317 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +417,7 @@
 				4E4AD4DE1B82C2F500CC1744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E4AD4DF1B82C2F500CC1744 /* Build configuration list for PBXNativeTarget "FloTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				4E4AD4E11B82C2F500CC1744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
